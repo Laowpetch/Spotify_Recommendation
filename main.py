@@ -58,6 +58,6 @@ if __name__ == '__main__':
             Max.append(Pearson_2.index(Pearson_[i]))
             Pearson_2[Pearson_2.index(Pearson_[i])] = -1
             if Pearson_[i] > 0:
-                print(Song_[Max[i]].name,' Pearsonsimilarity = ',Pearson_[i])               
+                print(Song_[Max[i]].name,'Pearsonsimilarity =',Pearson_[i])               
     else:
         print('Invalid input')
